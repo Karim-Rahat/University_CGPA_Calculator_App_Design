@@ -1,0 +1,146 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poppins:wght@100;400&display=swap"
+      rel="stylesheet"
+    />
+  </head>
+  <body>
+    <div class="container px-5">
+      <div class="mt-5 mb-5">
+        <span class="cgpaCalText">CGPA Calculator</span>
+        <p class="pciu">Port City International University,Chattogram</p>
+      </div>
+      <div class="wrap">
+        <div class="sectionOne">
+          <form>
+            <label for="exampleInputId" class="form-label">
+              Enter your ID here</label
+            >
+            <br />
+            <input
+              type="text"
+              class="form-control idInputForm"
+              placeholder="CSE 0190XXXXXX"
+              id="exampleInputId"
+            />
+            <div class="d-grid gap-2">
+              <button class="btn btn-primary search" type="button">
+                <span>Search</span>
+              </button>
+            </div>
+          </form>
+          <!-- student info table  -->
+          <div class="d-grid gap-2 tableDiv">
+            <table class="table table-borderless">
+              <tbody>
+                <tr>
+                  <th scope="row" class="t1Th">Name</th>
+                  <td class="t1Td">Md. Rubel Amin</td>
+                </tr>
+                <tr>
+                  <th scope="row" class="t1Th">Batch</th>
+                  <td class="t1Td">19 Evening</td>
+                </tr>
+                <tr>
+                  <th scope="row" class="t1Th">Program</th>
+                  <td class="t1Td">B.Sc in CSE</td>
+                </tr>
+                <tr>
+                  <th scope="row" class="t1Th">Session</th>
+                  <td class="t1Td">Summer 19</td>
+                </tr>
+              </tbody>
+            </table>
+          </div>
+          <!-- total credit and average cgpa  -->
+          <div class="d-grid gap-2 tableDiv2">
+            <table class="table table-borderless">
+              <tbody>
+                <tr>
+                  <th
+                    scope="row"
+                    class="t2Th"
+                    style="font-size: 15px; font-weight: bold;"
+                  >
+                    Total Credit
+                  </th>
+                  <td class="t2Td" style="font-size: 15px; font-weight: bold;">
+                    120
+                  </td>
+                </tr>
+                <tr>
+                  <th scope="row" class="t2Th" style="font-size: 20px;">
+                    CGPA
+                  </th>
+                  <td
+                    class="t2Td"
+                    style="font-size: 32px; font-weight: bolder;"
+                  >
+                    3.88
+                  </td>
+                </tr>
+              </tbody>
+            </table>
+          </div>
+        </div>
+        <!-- Result List section -->
+        <div class="sectionTwo">
+          <div class="mb-2">
+            <span class="span1"> CGPA History </span>
+          </div>
+          <div class="wrapper">
+            <table class="table table-borderless cgpaTable">
+              <thead class="theadBgColor">
+                <tr>
+                  <th scope="col" class="t3th">Trimester</th>
+                  <th scope="col">Credit Hr.</th>
+                  <th scope="col">CGPA</th>
+                </tr>
+              </thead>
+              <tbody>
+                <tr class="resultTableBody">
+                  <td class="t3td">Spring 2022</td>
+                  <td>15</td>
+                  <td>3.88</td>
+                </tr>
+                <tr class="resultTableBody">
+                  <td class="t3td">Spring 2022</td>
+                  <td>15</td>
+                  <td>3.88</td>
+                </tr>
+                <tr class="resultTableBody">
+                  <td class="t3td">Spring 2022</td>
+                  <td>15</td>
+                  <td>3.88</td>
+                </tr>
+                <tr class="resultTableBody">
+                  <td class="t3td">Spring 2022</td>
+                  <td>15</td>
+                  <td>3.88</td>
+                </tr>
+                <tr class="resultTableBody">
+                  <td class="t3td">Spring 2022</td>
+                  <td>15</td>
+                  <td>3.88</td>
+                </tr>
+                <tr class="resultTableBody">
+                  <td class="t3td">Spring 2022</td>
+                  <td>15</td>
+                  <td>3.88</td>
+                </tr>
+              </tbody>
+            </table>
+          </div>
+        </div>
+      </div>
+    </div>
+    <script src="src/index.js"></script>
+  </body>
+</html>
